@@ -3,17 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8564C3B2-2329-4297-A55B-C60509FE24BA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FF39BF8B-57A9-4584-B6B2-CB22CB11D896}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{31625B2D-2CB7-45FD-BE0C-2296634B67AC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{A8775EEA-BFB3-47D8-9C1A-3ADF1F4BB721}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{C5E0FF05-4594-4750-B6EC-3EA44AC075EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{242C99FF-1B35-4D72-BF9E-0F70D6FE0F7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{242C99FF-1B35-4D72-BF9E-0F70D6FE0F7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,12 +36,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{31625B2D-2CB7-45FD-BE0C-2296634B67AC} = {8564C3B2-2329-4297-A55B-C60509FE24BA}
-		{A8775EEA-BFB3-47D8-9C1A-3ADF1F4BB721} = {8564C3B2-2329-4297-A55B-C60509FE24BA}
-		{C5E0FF05-4594-4750-B6EC-3EA44AC075EC} = {8564C3B2-2329-4297-A55B-C60509FE24BA}
-		{242C99FF-1B35-4D72-BF9E-0F70D6FE0F7C} = {8564C3B2-2329-4297-A55B-C60509FE24BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {978126DF-DC43-4A12-B959-8892F4B6F1C6}
